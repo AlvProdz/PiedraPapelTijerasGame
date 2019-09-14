@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Piedra, Papel o Tijeras</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    
+</head>
+<body>
+    <div id="game">            
+        </div>
+        <div id="cabecera">
+            <h2>¡Vamos a jugar a Piedra, Papel o Tijeras!</h2>
+            <p>Escribe tu nombre y selecciona una opción para jugar</p>
+        </div>
+        <div id="tablero"></div>
+        <div id="opciones">
+            <form action="#">
+                    <input id="namePlay" class="campoNombre" type="text">
+            </form>
+            <img onclick="Take_data_Piedra()" class="botones" src="img/boton_piedra.png" alt="">
+            <img onclick="Take_data_Papel()" class="botones"  src="img/boton_papel.png" alt="">
+            <img onclick="Take_data_Tijeras()" class="botones" src="img/boton_tijeras.png" alt=""><br>
+            <p class="Firma">Diseñado por <a href="https://github.com/AlvProdz" target="_blank">Álvaro Perera</a></p>
+        </div>
+    </div>    
+</body>
+</html>

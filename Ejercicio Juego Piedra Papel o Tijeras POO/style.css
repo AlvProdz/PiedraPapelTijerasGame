@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(10, 89, 95);
+}
+
+#game{
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    margin-left: -750px;
+    margin-top: -375px;
+    width: 1500px;
+    height: 750px;
+    background-color: white;
+    -webkit-border-top-right-radius: 50px;
+    -webkit-border-bottom-left-radius: 50px;
+    -moz-border-radius-topright: 50px;
+    -moz-border-radius-bottomleft: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.campoNombre{
+    margin-top: 20px;
+    height: 40px;
+    width: 200px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    font-size:24px;
+    text-align: center;
+}
+
+#cabecera{
+    position: absolute;
+    margin: 0 auto;
+    top:15%;
+    left:30%;
+    width: 600px;
+    height: 350px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#tablero{
+    display: none;
+    position: absolute;
+    margin: 0 auto;
+    top:45%;
+    left:50%;
+    margin-left: -650px;
+    margin-top: -70px;
+    width: 1300px;
+    height: 450px;
+    background-color: aqua;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+#opciones{
+    
+    position: absolute;
+    margin: 0 auto;
+    top:50%;
+    left:50%;
+    margin-left: -650px;
+    margin-top: -50px;
+    width: 1300px;
+    height: 350px;
+    background-color: aqua;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.botones{
+    margin: 10;
+
+}
+
+img{
+    margin-top: -30px;
+    margin: 30px;
+}
+
+p.Firma{
+    margin-top: 30px;
+}
